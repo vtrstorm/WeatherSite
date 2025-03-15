@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 body {
     color:white;
     background-color: black;
@@ -8,9 +9,47 @@ p {
     font-size: xx-large;
     font-style: initial;
 }
-figcaption {
+
+.img {
     text-align: center;
+    font-size: medium;
+    font-style: initial;
 }
-body {
+
+.texto {
     text-align: center;
+    font-size: 40px;
+    font-family: "Lilita One", sans-serif;
+
+    background: linear-gradient(45deg, #9200d1, #a509e8, #81007f, #a500a3, #ff00fc, #ff9cfe, #81007f);
+    background-size: 400% 100%;
+    animation: ani 10s linear infinite alternate;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes ani {
+    0%{
+        background-position-x: 0%;
+    }
+
+    100%{
+        background-position: 400%;
+    }
+}
+
+.vtwr{
+    display: inline-block;
+}
+.xcl4ww{
+    display: inline-block;
+}
+
+.imgvtwr{
+    display: inline-block;
+}
+.imgxcl4ww{
+    display: inline-block;
 }
