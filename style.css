@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+body {
+    color:rgba(255, 255, 255, 0.716);
+    background-color: rgb(35, 35, 35);
+}
+
+.title {
+    text-align: center;
+    font-size: 70px;
+    font-family: "Lilita One", sans-serif;
+    color: #ff00d9;
+}
+
+.weather-gif {
+    display: flex;
+    justify-content: center;
+}
+
+.owners {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Lilita One", sans-serif;
+
+    background: linear-gradient(45deg, #740e0e, #970000, #ff0000, #ff9793, #d69391, #ff0700, #6c0300);
+    background-size: 400% 100%;
+    animation: ani 10s linear infinite alternate;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes ani {
+    0% {
+        background-position-x: 0%;
+    }
+
+    100% {
+        background-position: 400%;
+    }
+}
+
+.heads{
+    display: flex;
+    justify-content: center;
+}
+
+.owner-names a, p {
+    font-family: arial;
+    text-decoration: none;
+    color: red;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.discord-admins {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Lilita One", sans-serif;
+
+    background: linear-gradient(90deg, #9200d1, #a509e8, #81007f, #a500a3, #ff00fc, #ff9cfe, #81007f);
+    background-size: 400% 100%;
+    animation: ani 10s linear infinite alternate;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes ani {
+    0% {
+        background-position-x: 0%;
+    }
+
+    100% {
+        background-position: 400%;
+    }
+}
+
+.admins-names a, p {
+    font-family: arial;
+    text-decoration: none;
+    color: purple;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.server-manager {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Lilita One", sans-serif;
+
+    background: linear-gradient(90deg, #2a0046, #38005d, #4a007b, #6e13aa, #540e83, #3f0b63, #380d56);
+    background-size: 400% 100%;
+    animation: ani 10s linear infinite alternate;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes ani {
+    0% {
+        background-position-x: 0%;
+    }
+
+    100% {
+        background-position: 400%;
+    }
+}
+
+.server-manager-names a, p {
+    font-family: arial;
+    text-decoration: none;
+    color: rgb(78, 0, 134);
+    text-align: center;
+    font-size: xx-large;
+}
+
+.about-us-background {
+    border-radius: 10px;
+    background: rgb(0, 60, 95);
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.about-us {
+    font-family: "Lilita One", sans-serif;
+    font-size: 100px;
+    color: #77d4ff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}  
+
+.who-we-are {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(171, 171, 171);
+}
+
+.who-we-are a {
+    color: #ffe100;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    position: relative;
+    border-radius: 20px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-text {
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+    color: #393939;
+}
+
+.footer-text a {
+    color: #ffc5f5;
+    text-decoration: none;
+}
+
