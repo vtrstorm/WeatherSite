@@ -3,7 +3,7 @@
 This is a project made by vtrstorm for Weather Clan, a Minecraft PVP clan on MushMC server.
 
 ## 🔗 WebSite link: https://vtrstorm.github.io/WeatherSite
-> Thanks to GitHub Pages for hosting the site!!
+## > Thanks to GitHub Pages for hosting the site!!
 
 🔱 **About the clan:**
 
